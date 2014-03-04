@@ -1,7 +1,0 @@
-LastName, FirstName, Gender, FavoriteColor, DateOfBirth
-Greenyy, Natey, M, Green, 08-28-1971
-Greeeeenie, Nat, F, Green, 08-21-1972
-Grees, N, F, Green, 08-22-1973
-Greny, Nanay, F, Green, 08-14-1977
-Gree, Nana, M, Green, 08-22-1980
-Greeny, Natie, M, Green, 08-07-1990

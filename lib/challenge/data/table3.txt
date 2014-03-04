@@ -1,7 +1,0 @@
-LastName FirstName Gender FavoriteColor DateOfBirth
-Greenie Natey M Green 08-28-1985
-Greie Natey F Green 08-21-1984
-Greffenie Natey M Green 08-22-1973
-Greendddie Naitey F Green 08-14-1945
-Greenieee Naaatey M Green 08-22-1903
-Gree Netey M Green 08-07-1999
