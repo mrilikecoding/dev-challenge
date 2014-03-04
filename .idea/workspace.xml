@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f0eb744-65eb-4c08-955b-cfd2ff434f06" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dev-challenge.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dev-challenge.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,7 +58,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="14" selection-start="129" selection-end="129" vertical-scroll-proportion="-0.15384616" vertical-offset="220" max-vertical-offset="870">
+            <state line="16" column="87" selection-start="545" selection-end="545" vertical-scroll-proportion="0.36923078" vertical-offset="0" max-vertical-offset="840">
               <folding />
             </state>
           </provider>
@@ -378,13 +370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="26" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="885">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/challenge/api.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="46" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
@@ -420,12 +405,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="26" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="14" selection-start="129" selection-end="129" vertical-scroll-proportion="-0.15384616" vertical-offset="220" max-vertical-offset="870">
+        <state line="16" column="87" selection-start="545" selection-end="545" vertical-scroll-proportion="0.36923078" vertical-offset="0" max-vertical-offset="840">
           <folding />
         </state>
       </provider>
