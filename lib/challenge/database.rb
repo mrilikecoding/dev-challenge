@@ -1,14 +1,8 @@
 module Database
 
-	# config
-	@data_directory = Dir["../data/*.*"]
-	$database_file = "db.csv"
-	
-
 	def self.open_db
-		@db = File.open($database_file, "a")	
+		@db = File.open($database_file, "a")
 	end
-
 
 	def self.close_db
 		# @db.close()
@@ -21,12 +15,13 @@ module Database
 	# set database source files and call write
 	def self.initialize_database(*data_source_file)
 		Database.open_db
-		data_source_file.present? ? write_database(@db, data_source_file) : write_database(@db, @data_directory)
+		data_source_file.present? ? write_database(@db, data_source_file) : write_database(@db, $data_directory)
 		Database.close_db
 	end
 
 	# append one line to the db
 	def self.add_line(line)
+    puts line.present?
 		Database.open_db
 		parsed_line = line.gsub(/\,\s/, ' ').gsub(/\|\s/, "")
 		@db << "\n#{parsed_line}".gsub('"', '')
@@ -35,10 +30,10 @@ module Database
 
 	# write specified files to db file
 	def self.write_database(database_file, data_directory)
-		@db.truncate(0)
-		puts "generating data from #{data_directory}"		
-		data_directory.each_with_index do |file, file_index|
-			puts "file accessed..."
+    @db.truncate(0)
+    puts "generating data from #{data_directory}"
+    data_directory.each_with_index do |file, file_index|
+      puts "file accessed..."
 			target_file = File.open(file, "r") do |t|
 				File.readlines(t).each_with_index do |line, line_index|
 					line = line.gsub(/\,\s/, ' ').gsub(/\|\s/, "")
@@ -62,5 +57,4 @@ module Database
 		end
 		Database.close_db
 	end
-
 end
