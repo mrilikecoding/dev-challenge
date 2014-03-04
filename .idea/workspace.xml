@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f0eb744-65eb-4c08-955b-cfd2ff434f06" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/bootstrap.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dev-challenge.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/challenge/api.rb" afterPath="$PROJECT_DIR$/lib/challenge/api.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app" afterPath="$PROJECT_DIR$/app" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.ru" afterPath="$PROJECT_DIR$/config.ru" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/challenge/database.rb" afterPath="$PROJECT_DIR$/lib/challenge/database.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/db.csv" afterPath="$PROJECT_DIR$/lib/db.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/dev_challenge.rb" afterPath="$PROJECT_DIR$/lib/dev_challenge.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/challenge/people.rb" afterPath="$PROJECT_DIR$/lib/challenge/people.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dev-challenge.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,22 +60,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="6" selection-start="1344" selection-end="1344" vertical-scroll-proportion="-19.074074" vertical-offset="205" max-vertical-offset="855">
+            <state line="8" column="14" selection-start="129" selection-end="129" vertical-scroll-proportion="-0.15384616" vertical-offset="220" max-vertical-offset="870">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.csv" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="db.csv" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/db.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="32" selection-start="663" selection-end="663" vertical-scroll-proportion="0.42097488" vertical-offset="0" max-vertical-offset="677">
+            <state line="19" column="32" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
               <folding />
             </state>
           </provider>
@@ -118,10 +118,11 @@
         <option value="$PROJECT_DIR$/app" />
         <option value="$PROJECT_DIR$/lib/challenge/people.rb" />
         <option value="$PROJECT_DIR$/lib/challenge/api.rb" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/lib/dev_challenge.rb" />
         <option value="$PROJECT_DIR$/lib/challenge/database.rb" />
         <option value="$PROJECT_DIR$/lib/db.csv" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -391,16 +392,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="6" selection-start="1344" selection-end="1344" vertical-scroll-proportion="-19.074074" vertical-offset="205" max-vertical-offset="855">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/dev_challenge.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="25" selection-start="896" selection-end="896" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="810">
@@ -415,9 +406,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="7" selection-start="42" selection-end="42" vertical-scroll-proportion="0.11078287" vertical-offset="0" max-vertical-offset="677">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/db.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="32" selection-start="663" selection-end="663" vertical-scroll-proportion="0.42097488" vertical-offset="0" max-vertical-offset="677">
+        <state line="19" column="32" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="14" selection-start="129" selection-end="129" vertical-scroll-proportion="-0.15384616" vertical-offset="220" max-vertical-offset="870">
           <folding />
         </state>
       </provider>
