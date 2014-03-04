@@ -48,4 +48,9 @@ To post to the database:
 
 * `POST http://localhost:9292/records/Swift%20Taylor%20F%20Orange%2009-01-1992`
 
+Tests
+-----
+
+Need implementing
+
 
