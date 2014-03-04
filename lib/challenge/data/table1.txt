@@ -1,0 +1,7 @@
+LastName | FirstName | Gender | FavoriteColor | DateOfBirth
+Areeenie | Natey | F | Green | 08-28-1922
+Grenie | Na | M | Green | 08-21-1924
+Greeenie | Nat | F | Green | 08-22-1999
+Creeenie | Natie | M | Green | 08-14-1923
+Greeeeenie | Nate | F | Green | 08-22-1800
+Zree | N | M | Green | 08-07-2001

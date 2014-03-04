@@ -2,31 +2,15 @@ ReadMe
 ======
 *create an rvm gemset and bundle install*
 
-All test db files are located in the data folder
+All test db files are located in the lib/challenge/data folder
 
-To generate the 'database' from the data folder, run the following command:
 
-`ruby dev_challenge.rb init_db`
+Run with ./app
 
-To pass in your own file, run:
+==============
+./app -h for list of available commands
+---------------------------------------
 
-`ruby dev_challenge.rb init_db "path/to/file.txt"`
-
-To print out records sorted by gender:
-
-`ruby dev_challenge.rb sort_by gender`
-
-To print out records sorted by gender, then sorted by date of birth:
-
-`ruby dev_challenge.rb sort_by gender dob`
-
-To print out records sorted by gender, then reverse sorted by date of birth:
-
-`ruby dev_challenge.rb sort_by gender dob reverse`
-
-To add a line to the database:
-
-`ruby dev_challenge.rb add_line "Costas | Bob | M | Pink | 03-21-1954"`
 
 VIA the Grape API
 -----------------
